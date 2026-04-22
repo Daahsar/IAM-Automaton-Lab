@@ -1,0 +1,48 @@
+# PowerShell
+*.psd1
+*.psm1
+*.ps1xml
+*.pssc
+*.psrc
+*.pshistory
+
+# Logs
+*.log
+*.tmp
+*.bak
+
+# JSON temp or generated files
+*.json.tmp
+*.json.bak
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS-specific
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Git merge junk
+*.orig
+*.rej
+
+# Python virtual envs (if you ever add automation)
+venv/
+.env/
+
+# Node modules (if you add frontend or tooling)
+node_modules/
+
+# Ignore secrets (if you ever add them)
+secrets.json
+*.key
+*.pem
+*.pfx
+
+# Ignore zip archives
+*.zip
+*.7z
+*.tar
+*.gz
