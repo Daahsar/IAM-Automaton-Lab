@@ -1,0 +1,37 @@
+[
+  {
+    "displayName": "Engineering",
+    "description": "Engineering department group",
+    "mailNickname": "engineering"
+  },
+  {
+    "displayName": "Product",
+    "description": "Product department group",
+    "mailNickname": "product"
+  },
+  {
+    "displayName": "Sales",
+    "description": "Sales department group",
+    "mailNickname": "sales"
+  },
+  {
+    "displayName": "HR",
+    "description": "Human Resources department group",
+    "mailNickname": "hr"
+  },
+  {
+    "displayName": "IT",
+    "description": "IT department group",
+    "mailNickname": "it"
+  },
+  {
+    "displayName": "Legal",
+    "description": "Legal department group",
+    "mailNickname": "legal"
+  },
+  {
+    "displayName": "Communications",
+    "description": "Communications department group",
+    "mailNickname": "communications"
+  }
+]
