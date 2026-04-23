@@ -1,0 +1,28 @@
+{
+    "roleName": "Helpdesk Operator",
+    "description": "Provides limited support capabilities for user account management.",
+    "assignTo": {
+        "users": [
+            "user1@domain.com",
+            "user2@domain.com"
+        ],
+        "groups": [
+            "Helpdesk-Operators"
+        ]
+    },
+    "permissions": [
+        {
+            "resource": "User.ReadWrite.All",
+            "type": "Delegated"
+        },
+        {
+            "resource": "Directory.Read.All",
+            "type": "Application"
+        }
+    ],
+    "metadata": {
+        "environment": "Production",
+        "owner": "IAM Team",
+        "version": "1.0"
+    }
+}
