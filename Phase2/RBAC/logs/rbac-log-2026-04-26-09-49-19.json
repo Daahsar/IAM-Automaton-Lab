@@ -1,0 +1,14 @@
+﻿{
+    "timestamp":  "2026-04-26T09:49:19.8190541-04:00",
+    "roleName":  null,
+    "roleId":  null,
+    "assignments":  {
+                        "users":  [
+
+                                  ],
+                        "groups":  [
+
+                                   ]
+                    },
+    "error":  "Missing required field: roleName"
+}

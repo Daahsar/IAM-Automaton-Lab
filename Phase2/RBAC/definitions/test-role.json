@@ -1,0 +1,16 @@
+﻿{
+  "roleName": "Test Role - Do Not Use",
+  "description": "Temporary role for validating RBAC automation.",
+  "permissions": [
+    {
+      "resource": "microsoft.directory/applications/basic/read",
+      "type": "allowed"
+    }
+  ],
+  "assignTo": {
+    "users": [
+      "AliR@reallabfakeorg.onmicrosoft.com"
+    ],
+    "groups": []
+  }
+}
