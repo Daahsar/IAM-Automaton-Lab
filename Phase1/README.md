@@ -104,6 +104,13 @@ Repository Hygiene
 
 \- Repository structured for future CI/CD integration
 
+Security Note — Handling Credentials
+
+The provisioning script in this lab (Import-Users.ps1) uses a hardcoded temporary password solely to create test accounts in an isolated lab tenant, with ForceChangePasswordNextSignIn enabled. This approach is not best practice and should not be used in a production or enterprise environment.
+
+In an enterprise environment, passwords and other secrets should never be hardcoded in code, scripts, or documentation, and should never be committed to a public — or any — source code repository. Credentials should instead be handled through an approved secrets management solution (for example, Azure Key Vault, CyberArk, or another enterprise vault), secure pipeline secrets or environment variables, and managed identities where possible, with least-privilege access, logging, and regular rotation.
+
+Any credential that has been exposed in a repository should be treated as compromised and rotated immediately.
 
 
 Prerequisites
